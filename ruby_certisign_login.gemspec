@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.name          = "ruby_certisign_login"
   spec.version       = RubyCertisignLogin::VERSION
   spec.platform      = Gem::Platform::RUBY
-  spec.authors       = ["Danilo Josino"]
-  spec.email         = ["danilo@josino.com.br"]
+  spec.authors       = ["Mondrian Tecnologia"]
+  spec.email         = ["suporte@mondriantecnologia.com"]
 
   spec.summary       = "Versão em ruby para autenticação via CertiSignLogin."
-  spec.description   = "A Gem possui um helper para gerar o formulario que envia o request de certificados a CertiSign e uma rotina para descriptografar o retorno recebido da CertiSign."
-  spec.homepage      = "https://github.com/djosino/ruby_certisign_login"
+  spec.description   = "A Gem possui um helper para gerar o formulario que envia o request de certificados a CertiSign e uma rotina para descriptografar o retorno recebido da CertiSign. Esse fork foi atualizado para suportar certificados com  criptografia de 256 bits"
+  spec.homepage      = "https://github.com/mondrian/ruby_certisign_login"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
